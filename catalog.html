@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link rel="stylesheet" type="text/css" href="css/catalog-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+  <div class="wrapperNav clearfix">
+		<div class="logo"><a href="#"></a></div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a href="catalog.html" class="active">Магазины</a></li>
+					<li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+					<div class="basket"><a href="#">Корзина</a></div>
+    </div>
+	</header>
+<main>
+  <section class="shop"><h1>Магазин готовых шаблонов</h1></section>
+  <div class="wrap">
+  <div class="options">
+    <div class="price">
+      <h3>Стоимость:</h3>
+      <div class="slide">
+        <div class="minSlide"></div>
+        <div class="trackProgress"></div>
+        <div class="maxSlide"></div>
+        <div class="track"></div>
+      </div>
+      <div class="fromTo">
+        <label for="minPrice">от</label>
+        <input type="text" value="0"></input>
+        <label for="maxPrice">до</label>
+        <input type="text" value="15 000"></input>
+      </div>
+      </div>
+      <div class="grid">
+        <h3>Сетка:</h3>
+        <div class="radiobtn">
+          <label><input type="radio" name="radio" value="adaptive" checked><span></span>Адаптивная</label>
+        </div>
+        <div class="radiobtn">
+          <label><input type="radio" name="radio" value="fixed"><span></span>Фиксированная</label>
+        </div>
+        <div class="radiobtn">
+          <label><input type="radio" name="radio" value="rubber"><span></span>Резиновая</label>
+        </div>
+    </div>
+    <div class="prop">
+      <h3>Особенности:</h3>
+      <div class="checkbtn">
+        <label><input type="checkbox" name="check" checked><span></span>Слайдер</label>
+      </div>
+      <div class="checkbtn">  
+        <label><input type="checkbox" name="check"><span></span>Блок преимуществ</label>
+      </div>
+      <div class="checkbtn"> 
+        <label><input type="checkbox" name="check" checked><span></span>Новости</label>
+      </div>
+      <div class="checkbtn">  
+        <label><input type="checkbox" name="check"><span></span>Галерея</label>
+      </div>
+      <div class="checkbtn">  
+        <label><input type="checkbox" name="check"><span></span>Корзина</label>
+      </div>
+    </div>
+    <button value="показать" type="button"><a href="#">Показать</a></button>
+  </div>
+  <section class="catalog">
+    <div class="sort">
+      <h3>Сортировать:</h3>
+      <button class="type">По цене</button>
+      <button class="type">По типу</button>
+      <button class="type">По названию</button>
+      <button class="down"></button>
+      <button class="up"></button>
+    </div>
+    <article class="artSedona">
+      <div class="artHeader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="sedona">
+        <div class="artHov">
+          <h3>Sedona</h3>
+          <p>Информационный сайт<br> для туристов</p>
+          <button>9900 руб.</button>
+        </div>
+      </div>
+    </article>
+    <article class="artPink">
+      <div class="artHeader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="pink">
+        <div class="artHov">
+          <h3>Pink app</h3>
+          <p>Продуктовый лендинг<br>приложения для iOS и Android</p>
+          <button>9900 руб.</button>
+        </div>
+      </div>
+    </article>
+    <article class="artBorodinski">
+      <div class="artHeader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="borodinski">
+        <div class="artHov">
+          <h3>Barbershop</h3>
+          <p>Сайт салоны красоты<br>Для мужчин, да.</p>
+          <button>9900 руб.</button>
+        </div>
+      </div>
+    </article>
+    <article class="artMishka">
+      <div class="artHeader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="mishka">
+        <div class="artHov">
+          <h3>Mishka</h3>
+          <p>Интернет-магазин<br>вязаных игрушек</p>
+          <button>9900 руб.</button>
+        </div>
+      </div>
+    </article>
+    <article class="artAplus">
+      <div class="artHeader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="aplus">
+        <div class="artHov">
+          <h3>A plus</h3>
+          <p>Лендинг курсов повышения<br>квалификации</p>
+          <button>9900 руб.</button>
+        </div>
+      </div>
+    </article>
+    <article class="artKvast">
+      <div class="artHeader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="kvast">
+        <div class="artHov">
+          <h3>Кваст</h3>
+          <p>Промо-сайт производителя<br>крафтового кваса</p>
+          <button>9900 руб.</button>
+        </div>
+      </div>
+    </article>
+    <div class="pages">
+      <button type="button" class="pageOne">1</button>
+      <button type="button" class="page">2</button>
+      <button type="button" class="page">3</button>
+      <button type="button" class="nextPage">следующая</button>
+      </div>
+  </section>
+  </div>
+  <section class="containerAddress">
+  <div class="address">
+    <h3>nёrds design studio</h3>
+    <p class="text1">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</address>
+    <p class="text2">тел. +7 (812) 275-75-75</p>
+    <button type="button" class="link">Напишите нам</button>
+  </div>
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6146657631232!2d30.320266216097036!3d59.938535981876115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sru!4v1497471357684"frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <div class="writeUs">
+      <h2>Напишите нам</h2>
+    <form action="/echo" method="post">
+      <div class="userData">
+      <div class="userLeft">
+      <label for="yourName">Ваше имя:
+      <input name="name" type="text" placeholder="Представьтесь, пожалуйста"></label>
+      </div>
+      <div class="userRight">
+        <label for="e-mail">Ваш e-mail:
+        <input name="e-mail" type="text" placeholder="Для отправки ответа"></label>
+      </div>
+    </div>
+    <div class="letter">
+      <label>Текст письма:<textarea placeholder="В свободной форме"></textarea></label>
+      <div class="send">
+        <button type="submit">Отправить</button>
+      </div>
+    </div>
+    </form>
+    <div class="close"></div>
+    </div>
+    </section>
+</main>
+<footer>
+  <div class="footerWrap clearfix">
+		<div class="icons">
+			<div class="vk"><a href="#"></a></div>
+      <div class="fb"><a href="#"></a></div>
+      <div class="insta"><a href="#"></a></div>
+		</div>
+		<div class="friends">
+			<h2>Давайте дружить, это выгодно!</h2>
+			<p>Скидка 10% для друзей из сиоциальных сетей.</p>
+		</div>
+  </div>
+</footer>
+<body>
+<script src="js/script.js"></script>
+</body>
+</html>

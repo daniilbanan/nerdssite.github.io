@@ -1,0 +1,64 @@
+.vk, .vk1, .vk2, .fb, .fb1, .fb2, .insta, .insta1, .insta2
+{
+	background: url(sprites.png) no-repeat;
+}
+
+
+.vk{
+	background-position: -209px -209px ;
+	width: 79px;
+	height: 79px;
+}
+
+
+.vk1{
+	background-position: -209px -110px ;
+	width: 79px;
+	height: 82px;
+}
+
+
+.vk2{
+	background-position: -209px -12px ;
+	width: 79px;
+	height: 79px;
+}
+
+
+.fb{
+	background-position: -110px -211px ;
+	width: 79px;
+	height: 79px;
+}
+
+
+.fb1{
+	background-position: -112px -12px ;
+	width: 79px;
+	height: 79px;
+}
+
+
+.fb2{
+	background-position: -110px -106px ;
+	width: 79px;
+	height: 82px;
+}
+.insta{
+	background-position: -17px -209px ;
+	width: 79px;
+	height: 79px;
+}
+
+
+.insta1{
+	background-position: -16px -106px ;
+	width: 79px;
+	height: 82px;
+}
+.insta2{
+	background-position: -18px -8px ;
+	width: 79px;
+	height: 79px;
+}
+
